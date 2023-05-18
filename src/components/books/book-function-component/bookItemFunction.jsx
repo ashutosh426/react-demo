@@ -11,6 +11,7 @@ const BookItem = (props) => {
             <td>{props.data.bookGenre}</td>
             <td>{props.data.bookCost}</td>
             <td><button type="button" className='btn btn-danger btn-sm' onClick={()=>{props.onDelete(props.data)}}>Delete</button></td>
+            <td><button type="button" className='btn btn-primary btn-sm' onClick={()=>{props.onView(props.data)}}>View</button></td>
 
         </tr>
     </>

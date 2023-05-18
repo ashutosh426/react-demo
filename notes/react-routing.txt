@@ -1,1 +1,20 @@
-install react-router-dom
+------
+1. install react-router-dom
+        npm install react-router-dom
+2. in index.js file , wrap the App tag around <BrowserRouter>. BrowserRouter is imported from 'react-router-dom'
+3. configure/specify the route paths for the components in App.js file
+
+Navigating to components through LINK ( a tags)
+----------------------------------------------
+1. create a header component
+2. usev the LINK tags to route to components
+
+Navigate to component programatically
+-------------------------------------
+1. here we will use a hook called useNavigate() from react-router-dom library
+2. refer BookAddFunction.js, BookStoreFunction.js
+
+
+Nested Routing 
+---------------------------------------
+1. Configure the components as nested route in app.js

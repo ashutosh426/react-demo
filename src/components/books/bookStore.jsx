@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import BookItem from './bookItem';
 
 
-class BookStore extends Component {
+class BookStoreClass extends Component {
     state = { 
         title: "Book Store",
         allBooks: [
@@ -87,4 +87,4 @@ class BookStore extends Component {
     // }
 }
  
-export default BookStore;
+export default BookStoreClass;
