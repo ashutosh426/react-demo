@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import BookStore from './components/books/book-function-component/bookStoreFunction';
+//import BookStore from './components/books/bookStore';
+import Counter from './components/counter';
+import Display from './components/display';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='App'>
+        <h2>Hello Everyone!!</h2>
+        <Display/>
+        <Counter/>
+        <BookStore/>
+
+        
+      </div>
+    </>
   );
 }
 
