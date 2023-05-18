@@ -58,7 +58,7 @@ const BookStore = () => {
     }
     return (
                 <div className="container m-5">
-                    <h1>{title  }</h1>
+                    <h1>{title}</h1>
                     <button type="button" className='btn btn-success my-5' 
                             onClick={handleAddNewButton}>Add New Book Button</button>
                     <Outlet></Outlet>
